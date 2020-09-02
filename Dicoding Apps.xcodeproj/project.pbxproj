@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E1262A5824FF4FA200A78391 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1262A5724FF4FA200A78391 /* DetailViewController.swift */; };
+		E1262A5A24FF4FE200A78391 /* AcademiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1262A5924FF4FE200A78391 /* AcademiesViewController.swift */; };
+		E1262A5C24FF506F00A78391 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1262A5B24FF506F00A78391 /* ProfileViewController.swift */; };
+		E1262A5F24FF51A400A78391 /* ChallengesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1262A5E24FF51A400A78391 /* ChallengesViewController.swift */; };
 		E1383A7C24ED471E0058662E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1383A7B24ED471E0058662E /* AppDelegate.swift */; };
 		E1383A7E24ED471E0058662E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1383A7D24ED471E0058662E /* SceneDelegate.swift */; };
 		E1383A8024ED471E0058662E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1383A7F24ED471E0058662E /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E1262A5724FF4FA200A78391 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E1262A5924FF4FE200A78391 /* AcademiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademiesViewController.swift; sourceTree = "<group>"; };
+		E1262A5B24FF506F00A78391 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		E1262A5E24FF51A400A78391 /* ChallengesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesViewController.swift; sourceTree = "<group>"; };
 		E1383A7824ED471E0058662E /* Dicoding Apps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dicoding Apps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1383A7B24ED471E0058662E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1383A7D24ED471E0058662E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +45,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E1262A5D24FF50DA00A78391 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E1383A7F24ED471E0058662E /* ViewController.swift */,
+				E1262A5724FF4FA200A78391 /* DetailViewController.swift */,
+				E1262A5924FF4FE200A78391 /* AcademiesViewController.swift */,
+				E1262A5B24FF506F00A78391 /* ProfileViewController.swift */,
+				E1262A5E24FF51A400A78391 /* ChallengesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		E1383A6F24ED471E0058662E = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +76,9 @@
 		E1383A7A24ED471E0058662E /* Dicoding Apps */ = {
 			isa = PBXGroup;
 			children = (
+				E1262A5D24FF50DA00A78391 /* Controller */,
 				E1383A7B24ED471E0058662E /* AppDelegate.swift */,
 				E1383A7D24ED471E0058662E /* SceneDelegate.swift */,
-				E1383A7F24ED471E0058662E /* ViewController.swift */,
 				E1383A8124ED471E0058662E /* Main.storyboard */,
 				E1383A8424ED47200058662E /* Assets.xcassets */,
 				E1383A8624ED47200058662E /* LaunchScreen.storyboard */,
@@ -138,9 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1262A5C24FF506F00A78391 /* ProfileViewController.swift in Sources */,
 				E1383A8024ED471E0058662E /* ViewController.swift in Sources */,
+				E1262A5F24FF51A400A78391 /* ChallengesViewController.swift in Sources */,
 				E1383A7C24ED471E0058662E /* AppDelegate.swift in Sources */,
+				E1262A5A24FF4FE200A78391 /* AcademiesViewController.swift in Sources */,
 				E1383A7E24ED471E0058662E /* SceneDelegate.swift in Sources */,
+				E1262A5824FF4FA200A78391 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
